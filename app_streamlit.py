@@ -136,7 +136,7 @@ class MultiStrategyRAG:
         self.index = None
         self.tfidf_vectorizer = None
         self.tfidf_matrix = None
-        self.llm_model = "llama-3.1-8b-instant"
+        self.llm_model = "gpt-oss-120b"
 
         # Telegram 設定（由使用者於介面輸入後儲存）
         self.telegram_bot_token: str | None = None
